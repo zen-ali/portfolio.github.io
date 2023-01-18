@@ -1,73 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
         }
-        
-        .nav_bar{
+
+        .nav_bar {
             width: 100%;
-            height: 50px ;
+            height: 50px;
             display: flex;
             justify-content: center;
             /* border: 2px solid black; */
             position: fixed;
             color: white;
             font-size: 25px;
-            
+
         }
-        nav{
+
+        nav {
             width: 90%;
-            
+
             /* border: 2px solid black;
             margin: auto; */
             display: flex;
             justify-content: space-between;
-            
-            
+
+
         }
-        nav>ul{
+
+        nav>ul {
             display: flex;
             list-style: none;
 
         }
-        nav>ul>li{
+
+        nav>ul>li {
             text-decoration: none;
             padding: 0px 20px;
             color: white;
         }
-        .backimg_cont{
-            
+
+        .backimg_cont {
+
             width: 100%;
             height: 600px;
             margin: auto;
             display: flex;
             justify-content: center;
         }
-        .backimg{
+
+        .backimg {
             width: 100%;
             height: 600px;
-           position: absolute;
-           z-index: -1;
+            position: absolute;
+            z-index: -1;
             border: 1px solid black;
             background-image: url(https://t4.ftcdn.net/jpg/04/95/28/65/360_F_495286577_rpsT2Shmr6g81hOhGXALhxWOfx1vOQBa.jpg);
             background-size: cover;
-            
-         
-            
+
+
+
         }
-        .image{
+
+        .image {
             border: 2px solid white;
             border-radius: 109px;
-            
+
         }
-        .img_content{
+
+        .img_content {
             width: 70%;
             height: 600px;
             display: flex;
@@ -79,11 +87,13 @@
             color: white;
 
         }
-        .hed_name{
+
+        .hed_name {
             font-size: 25px;
             margin: 15px auto;
         }
-        .socialmedia{
+
+        .socialmedia {
             display: flex;
             justify-content: center;
             /* border: 2px solid black; */
@@ -92,117 +102,632 @@
             margin-top: -30px;
 
         }
-        .socioicon{
+
+        .socioicon {
             width: 50%;
-         
-            
+
+
             display: flex;
             justify-content: center;
             height: 100px;
             width: 100px;
-            
+
         }
-        .basicimfo{
+
+        .basicimfo {
             font-size: 50px;
             margin: 95px auto;
             margin-left: 300px;
             /* box-shadow: 10px 10px 10px 0px; */
             width: 400px;
-       
-            
-            
+
+
+
         }
-        .text2{
-            padding-bottom: 100px;
-         
-            font-size: 25px;
-            margin: 95px auto ;
+
        
-            
-            margin-left: 200px;
-            box-shadow: 10px 10px 20px 0px;
-            width: 2000px;
-            padding: 30px;
+
+       
+
+        .info2 {
+
+            font-size: 30px;
+        }
+
+        .info3 {
+            font-size: 40px;
+        }
+
+
+        .info {
+            width: 100%;
+
+            display: flex;
+            justify-content: center;
+            margin: auto;
+        }
+
+        .infoskill {
+            display: flex;
+            flex-wrap: wrap;
+
+            width: 80%;
+            padding: 50px;
+            box-shadow: 10px 10px 20px 6px;
+            align-content: center;
+        }
+
+        .infoskill_data {
+            width: 50%;
+        }
+
+        .box1 {
+            height: 10px;
+            width: 550px;
+
+            background-color: rgb(89, 255, 89);
+            border-radius: 70%;
+
+
+        }
+
+        .box2 {
+
+            align-content: center;
+
+
+
+
+        }
+
+        .port1 {
+            font-size: 30px;
+            text-align: center;
+            margin-top: 80px;
+
+        }
+
+        .img1 {
+
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 50px;
+        }
+
+
+        .container2 {
+
+            width: 100%;
+
+            display: flex;
+            margin: auto;
+            justify-content: center;
+
+
+
+        }
+
+        .container2_box {
+            width: 60%;
+            height: 300px;
+            display: flex;
+            box-shadow: 20px 10px 20px 0px;
+            margin-top: 30px;
+
+        }
+
+        .sub_box1 {
+            height: 100%;
+            width: 50%;
+            background: rgb(9, 167, 9);
+
+        }
+
+        .sub_box2 {
+            height: 90%;
+            width: 110%;
+
+
+
+            background-color: white;
+        }
+
+        .font4 {
+            font-size: 40px;
+            color: white;
+            padding: 20px;
+        }
+
+        .font3 {
+            font-size: 40px;
+            padding: 10px;
+        }
+
+
+
+        .container3 {
+
+            width: 90%;
+
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            margin-top: 400px;
+            color: green;
            
 
 
+
+
         }
-        .text1{
-            font-size: 50px;
-           padding-bottom: 20px;
+
+        .container3_box {
+            width: 90%;
+            height: 300px;
+            display: flex;
+            box-shadow: 20px 10px 20px 0px;
+            margin-top: 30px;
+
+
         }
-        .text3{
-            position: relative; left: 1200px; bottom: 70px;
+
+        .sub_box3 {
+            height: 100%;
+            width: 100%;
+            background: rgb(9, 167, 9);
+
+        }
+
+        .sub_box4 {
+            height: 90%;
+            width: 60%;
+            background-color: white;
+            margin-right: 200px;
+        }
+
+        .form1 {
+            /* height: 30px; */
+            /* width: 520px; */
+
+            justify-content: center;
+            display: flex;
+
+            margin-top: 20px;
+
+            border-radius: 10px;
+        }
+
+        .form_1 {
+            box-shadow: 10px 20px 20px 0px;
+
+            margin-top: 50px;
+            border: 2px solid black;
+            padding: 40px;
+            padding-right: 40px;
+
+            display: flex;
+            justify-content: center;
+
+            margin: auto;
+            /* margin-top: 120px; */
+
+        }
+
+        .border3 {
+
+            padding: 140px;
+            /* border: 2px solid black; */
+
+
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            /* width: 1200px; */
+            /* padding: 90px; */
+
+        }
+
+        .box_3 {
+            display: flex;
+            justify-content: center;
+            margin-right: 200px;
+            margin-left: 200px;
+            width: 70%;
+            /* border: 2px solid black; */
+
+
+
+        }
+
+        
+                   .aboutal {
+
+            /* justify-content: center; */
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+           margin:  0px 50em -4em -9em;
+            /* border: 2px solid rgb(0, 128, 85); */
+            width: 60%;
+            
+
+}
+
+        .text2 {
+            padding-bottom: 100px;
+            font-size: 25px;
+            margin: 50px auto;
+            margin-left: 200px;
+            box-shadow: 10px 10px 20px 0px;
+            width: 50em;          
+          padding: 30px;
+            /* border: 2px solid red; */
+           
+            justify-content: center;
+        }
+
+        .text3 {
+            position: relative;
+            left: 900px;
+            bottom: 250px;
             font-size: 45px;
+            padding: 1px 20px 10px 0px ;
+            /* border: 2px solid blue; */
+            width: 400px;
+
+            
+        }
+
+        .text1 {
+            font-size: 50px;
+            padding-bottom: 20px;
+        }
+
+        .text4 {
+            position: relative;
+            left: 1100px;
+            bottom: 270px;
+            font-size: 20px;
+            /* border: 2px solid black; */
+            width: 30%;
+            font-size: 20px;
+margin:20px 10em 0em -100px ;
+        }
+
+        .cv {
+            margin-right: 60px;
+            font-size: 20px;
+            height: 35px;
+            width: 90px;
+            background-color: rgb(18, 175, 18);
+            color: aliceblue;
+            border: 2px solid white;
+       
+
+        }
+
+        .hm {
+            font-size: 17px;
+            height: 35px;
+            width: 120px;
+            background-color: rgb(18, 175, 18);
+            color: white;
+            border: 2px solid white;
+
+
+        }
+
+        .box_5 {
+            /* border: 2px solid white; */
+            display: flex;
+        }
+        .font_4{
+            position: relative; left: 40px;
+            margin: auto;
+            border-right: 100px;
+            /* border: 2px solid black; */
+            width: 450px;
+        }
+        .font_5{
+
+            text-align: center;
+            font-size: 30px;
         }
     </style>
 </head>
+
 <body>
 
     <div class="container">
         <div class="nav_bar">
             <nav>
-                <div class="nav_hed">Creative CV</div>
+                <div class="nav_hed"><a style="text-decoration: none; color: white;" href="#creative">Creative CV</a> </div>
                 <ul>
-                    <li>about</li>
-                    <li>contact Us</li>
-                    <li>skill</li>
+                    <div><li><a style="color: white;text-decoration: none;" href="#about1">About</a></li></div>
+                    <li><a style="color: white;text-decoration: none;" href="#contact" >contact Us</a> </li>
+                    <li><a style="color: white;text-decoration: none;" href="#skill">Skill</a> </li>
                     <li>signup</li>
                 </ul>
             </nav>
         </div>
-        
-        <div class="backimg_cont">  
+
+
+        <div class="backimg_cont">
             <div class="backimg"> </div>
             <div class="img_content">
-                <img class="image" src="anthony.jpg" alt="image" height="200px"  width="200px">
-                <div class="hed_name">ZEN ALI</div>
-                
-            </div>
-
-        </div>
-       
-        <div class="socialmedia">
-            <div class="socioicon">
-            <div class="insta"><img src="insta.svg" alt=""></div>
-            <div class="insta"><img src="twitter.svg" alt=""></div>
-            <div class="insta"><img src="facebook.svg" alt=""></div>
-            <div class="insta"><img src="google.svg" alt=""></div>
-        </div>
-        </div>
-        <div class="basicimfo">
-           
-
-            </div>
-
-            <div class="text2" >
-                <div class="text1">About</div> <div class="text3" >Basic information </div><p>Hello! I am Anthony Barnett. Web Developer, Graphic Designer</p> and Photographer.
-
-
-              <p>  Creative CV is a HTML resume template for 
-                professionals.</p> <p>Built with Bootstrap 4,
-                Now UI Kit and FontAwesome, this modern </p><p>
-              and responsive design template is perfect
-                </p><p>
-                  to showcase your portfolio, skills and 
-                  experience. Learn More</p>
-                  <div class="info"
-                  
-                  
-              
-                  
-                  
-                 
+                <img class="image" src="anthony.jpg" alt="image" height="200px" width="200px">
+                <div class="hed_name" id="creative">ZEN ALI</div>
+                <div class="box_5">
+                    <div><a href="#contact" > <button class="cv" type="button">  hire me</button></div></a>
+                    <div> <button class="hm" type="button"><a href="resume2.html"  style="text-decoration: none; color: white;" >Download CV</a>  </button></div>
                 </div>
 
-                  
+            </div>
+
+
+        </div>
+
+        <div class="socialmedia">
+            <div class="socioicon">
+                <div class="insta"><a href="
+                    https://github.com/zen-ali/portfolio.github.io"><img src="github.svg" alt=""></a></div>
+                <div class="insta"><img src="twitter.svg" alt=""></div>
+                <div class="insta"><img src="facebook.svg" alt=""></div>
+                <div class="insta"><img src="google.svg" alt=""></div>
+            </div>
+        </div>
+        <div class="basicimfo">
+
+
+            <!--/----------------------------------- here  box3 -->
+        </div>
+        <div class="box_3">
+            <div class="aboutal">
+                <div class="box2">
+
+                    <div class="text2">
+                        <div class="text1" id="about1" >About</div> 
+                        <p>Hello! I am zen ali.i wish to be a web Developer, Graphic Designer</p>
+
+                        <p> i am from jodhpur (Rajasthan) i have complete my iti diploma in</p>
+                        <P>copa from govt. iti jodhpur</p>
+
+
+                        
+                    </div>
+                   
+
+
+                    <div class="text3">Basic information </div>
+                    <div class="text4">
+                        
+                        
+                        <ul>
+                            <li>
+                                AGE: 19
+                            </li>
+                            <li>
+                                EMAIL: zenalisir@gmail.com
+                            </li>
+                            <li>
+                                PHONE: 7689907890
+                            </li>
+                            <li>
+                                ADDRESS: jodhpur,Rajasthan
+                            </li>
+                            <li>
+                                LANGUAGE: English,Hindi
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="info">
+
+
+
+
+        <div class="infoskill" id="skill" >
+
+
+
+            <div class="infoskill_data">
+                <div class="info2">HTML</div>
+                <progress class="box1" value="70" max="100"></progress>
+
+            </div>
+            <div class="infoskill_data">
+                <div class="info2">CSS 60% </div>
+                <progress class="box1" value="60" max="100"></progress>
+
+
+            </div>
+            <div class="infoskill_data">
+                <div class="info2">JAVASCRIPT 10%</div>
+                <progress class="box1" value="10" max="100"></progress>
+
+
+            </div>
+            <div class="infoskill_data">
+                <div class="info2">EXCEL 70%</div>
+                <progress class="box1" value="70" max="100"></progress>
+
+
+            </div>
+            <div class="infoskill_data">
+                <div class="info2">LINUX 60%</div>
+                <progress class="box1" value="50" max="100"></progress>
+
+
+            </div>
+            <div class="infoskill_data">
+                <div class="info2">MS WORD 70%</div>
+                <progress class="box1" value="70" max="100"></progress>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="port">
+            <div class="port1">
+                <p>Portfolio</p>
+            </div>
+
+
+
+            <div class="img1">
+                <div>
+                   <a href="a.html"> <img src="project1.png" height="300px" width="400px" style="padding: 10px;"></a>
+                </div>
+                <div> <a href="b.html">  <img src="project2.jpg" height="300px " width="300px" style="padding: 10px;"></a>
+                </div>
+                <div>
+                   <a href="c.html"> <img src="project3.png" height="300px" width="300px" style="padding: 10px;"></a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div style="font-size: 30px; text-align: center;">
+                <p>Work Experience</p>
+            </div>
+
+
+            <div class="container2">
+
+
+                <div class="container2_box">
+
+
+                    <div class="sub_box1">
+                        <p class="font4">2021-2022 ITI
+
+                        </p>
+                    </div>
+
+                    <div class="sub_box2">
+                        <p class="font3"><b>Goverment ITI Jodhpur
+
+                            </b>
+                            in C.O.P.A trade</p>
+                    </div>
+
+
+                </div>
+                <div>
+
+
+
+
+
+                </div>
 
 
             </div>
 
-        </div>
+            <div class="container2">
 
 
-    </div>
+                <div class="container2_box">
+
+
+                    <div class="sub_box1">
+                        <p class="font4">
+
+                            2021- Higher Secondary
+                        </p>
+                    </div>
+
+                    <div class="sub_box2">
+                        <p class="font3"> Board of Secondary Education Rajasthan,Ajmer </p>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="container2">
+
+
+                    <div class="container2_box">
+
+
+                        <div class="sub_box1">
+                            <p class="font4">2022-Present IBM
+
+
+                            </p>
+                        </div>
+                     
+
+
+                        
+                        <div>
+                            <div> <p class="font_5" > Certificates</p></div>
+                        
+                            
+                            <a href="certificate">certificates</a>
+                        
+                            <div class="font_4" >
+                                <ul>
+                                    <li>6 ways to find what you want on the internet</li>
+                                    <li>10 Tips that can make anyone a microsoft word expert</li>
+                                    <li>Being a good dilgital citizen</li>
+                                    <li>G suite training (gmail, chrome, google, classroom,hangouts, etc.)</li>
+                                    <li>How to create strong passwords</li>
+                                    <li>Improving your computer literacy</li>
+                                    <li>Information literacy skills</li>
+                                    <li>Master powerpoint 15 essential tips 2</li>
+                                    <li> Master powerpoint 15 essential tips</li>
+                                    <li>Microsoft 365 training ( word,powerpoint,excel,etc.)</li>
+                                    <li>Red hat enterprise linux technical overview</li>
+                                    <li>The internet how search works </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="sub_box2">
+                            <p class="font3"> </p>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <iframe src=""></iframe> -->
+
+                <div class="border3">
+
+                    <div class="form_1">
+
+                        <form>
+
+
+                            <h3 style="height: 40px;" id="contact">CONTACT ME</h3>
+                            <p style="font-size: 25px;"><b> Feel free to contact me</b></p>
+
+                            <input class="form1" type="text" placeholder="Name">
+
+                            <div><input class="form1" type="text" placeholder="subject"></div>
+                            <div><input class="form1" type="text" placeholder="E-MAIL"></div>
+                            <div>
+                                <textarea class="form1" rows="4" cols="40" name="description" style="height: 100px;">
+                                your message
+                             </textarea>
+                                <button style="margin-top: 10px;background-color: green;color: white;"
+                                    type="button">SEND</button>
+
+                            </div>
+                    </div>
+                    </form>
+                </div>
 </body>
+
 </html>
